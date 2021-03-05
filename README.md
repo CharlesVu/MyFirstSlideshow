@@ -1,25 +1,30 @@
 # Yoti Technical Tests
+
 ### Document version 1.0.3
 
-Please read this document entirely before continuing the exercise. Failure to comply to these rules will result in the forfeit your application.  
+Please read this document carefully before continuing the exercise. In case you don't follow the rules described your test will be rejected.
 
-- Don’t fork the project
-- Don’t submit a Pull Request on the repo
-- Don’t comment on any of the issues or Existing Pull Requests
-- Don’t submit a solution made by someone else
-
-Do: 
-
+**Do**:
 - Clone and commit the project locally
 - Send us a patch file
 - Send comments either in a markdown formatted mail or a PDF (not both)
 - Use when possible a monospaced font (Hack, Anonymous Pro, Menlo, Monaco, …)
 - Reply in English
 
+**Don't**:
+- Fork the project
+- Submit a Pull Request on the repo
+- Comment on any of the issues or Existing Pull Requests
+- Submit a solution made by someone else
+
+
+## Exercise 1
+
 This first exercise is rather simple and should take at most one hour.  
-Depending on which team you apply to, you should get a specific public repo where some code is present. (Do not worry, this is not how we code at Yoti)  
-The README should tell you what the project is trying to achieve and what are the limitations.  
-You should send us a code review of the first pull request on the list. Each comment should have the one of following format :
+The README should tell you what the project is trying to achieve and what are the limitations.
+You should send us a code review of the first pull request on the list. 
+
+Each comment should have the one of following format :
 ```
 <filename>:<linenumber> - “<your comment>”
 e.g:
@@ -36,20 +41,20 @@ e.g:
 MyFeature - “Should be renamed to ASCIICat”
 ``` 
 
-Don’t limit your PR review to “this is bad”, please explain why and provide a better solution (in pseudo code) as you would explain it to another developer.  
-We are not looking for an (re)implementation of the presented code at this stage.  
+Don’t limit your PR review to “this is bad”, please ellaborate and provide a better solution (in pseudo code) as you would explain it to another developer.  
+We are not looking for an (re)implementation of the presented code at this stage.
 
+## Exercise 2
 
-The second exercise is described in the issues tab on the github project. Don’t start it before receiving the feedback of your review of the first exercise.  
-Re-implement the project as if the feature was given to you.  
-If you are applying for a front-end development role, the UI Design doesn’t matter as it is but.  
-The UI items should be flexible enough to be re-used (try to hardcode the least values as possible).  
-Read all issues on repository and solve them.  
-We don’t expect any bonuses.  
-Don’t use any external frameworks (we know that most of what we asked can be solved by just importing one).  
-If you need more time, please email us.  
-This is not a speed contest, we do prefer you taking the full allocated time and send us a better solution than rushing for a solution which is sub-optimal.  
-Send us your commit logs attached with your answer.
+The second exercise is described in the issues tab on the github project. You need to read all the issued described in the Issues section of the repository and resolve them. 
+
+- Re-implement the project as if the feature was given to you.  
+- You are not requested to implement a completely different design unless you want to but the UI elements implemented should be flexible enough to be re-used (try to hardcode the least values as possible).  
+- We don’t expect any bonuses.
+- Don’t use any external frameworks (we know that most of what we asked can be solved by just importing one).  
+- If you need more time, please email us.
+- This is not a speed contest, we do prefer you taking the full allocated time and send us a better solution than rushing for a solution which is sub-optimal.  
+- Send us your commit logs attached with your answer.
 
 
 # MyFirstSlideshow
@@ -64,7 +69,7 @@ It's only one screen divided into two areas. The app should display images repre
  "https://i.redd.it/d8q1wkgu1awy.jpg",
  "http://www.kapstadt.de/webcam.jpg"]
  
-  // Images under Creative Commons 
+  // Images under Creative Commons
   // Images attributed to (in order) https://www.flickr.com/photos/_torne/
   // https://www.flickr.com/photos/chrisyarzab/
   // https://www.reddit.com/user/lalien42/
@@ -74,4 +79,4 @@ It's only one screen divided into two areas. The app should display images repre
 
 The two areas will work the same way. Each of them will have a button to cycle to the next image, an index indicator and a zone to display the image. 
 
-The branch "slideshow" is currently respecting the above "specifications" but with some caveats.
+The **branch** "slideshow" is currently respecting the above "specifications" but with some caveats.
