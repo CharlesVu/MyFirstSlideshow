@@ -1,9 +1,5 @@
 //
-//  MyFirstSlideshowTests.swift
-//  MyFirstSlideshowTests
-//
-//  Created by Charles Vu on 17/05/2017.
-//  Copyright © 2017 Yoti. All rights reserved.
+// Copyright © 2021 Yoti Ltd. All rights reserved.
 //
 
 import XCTest
