@@ -18,10 +18,10 @@ For the completion of the exercise we are expecting from you to do the following
 - (Optional) In case you would like to provide further expanation on your solution you can attach a separate document in PDF format.
 
 **Please avoid doing the following as they will get your application disqalified**
-- Fork the project. There is no rea
-- Submit a Pull Request on the repo
-- Comment on any of the issues or Existing Pull Requests
-- Submit a solution made by someone else
+- Fork the project.
+- Submit a Pull Request on the repo.
+- Comment on any of the issues or Existing Pull Requests.
+- Submit a solution made by someone else.
 
 ## MyFirstSlideshow
 
